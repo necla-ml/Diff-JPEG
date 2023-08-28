@@ -25,7 +25,7 @@ def diff_jpeg_coding(
         ste (bool): If true STE version of differentiable rounding, floor, and clipping is used. Default False.
 
     Returns:
-        image_rgb_jpeg (Tensor): JPEG coded image of the shape [B, 3, H, W].
+        image_rgb_jpeg (Tensor): JPEG-coded image of the shape [B, 3, H, W].
     """
     # Get QT if not given
     if quantization_table_y is None:
@@ -96,6 +96,8 @@ class DiffJPEGCoding(nn.Module):
         Args:
             image_rgb (Tensor): RGB input images of the shape [B, 3, H, W].
             jpeg_quality (Tensor): Compression strength of the shape [B].
+            quantization_table_y (Tensor): Quantization table Y channel shape [8, 8]. Default None (default QT is used).
+            quantization_table_c (Tensor): Quantization table C channels shape [8, 8]. Default None (default QT is used).
 
         Returns:
             image_rgb_jpeg (Tensor): JPEG coded image of the shape [B, 3, H, W].

@@ -1,0 +1,7 @@
+torch>=1.0.0
+opencv-python
+kornia>=0.6.11
+torchvision>=0.14.0
+matplotlib>=3.5.2
+Pillow>=9.2.0
+scipy>=1.0.0

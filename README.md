@@ -1,6 +1,5 @@
 # Differentiable JPEG: The Devil is in the Details
 
-[![arXiv](https://img.shields.io/badge/cs.CV-arXiv%3A2308.12116-B31B1B.svg)](https://arxiv.org/abs/2308.12116)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![Framework](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 

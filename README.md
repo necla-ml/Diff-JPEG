@@ -48,7 +48,7 @@ are yielded by our differentiable JPEG, demonstrating the effective gradient app
 Our differentiable JPEG implementation can be installed as a Python package by running:
 
 ```shell script
-pip install git+https://github.com/ChristophReich1996/Differentiable_JPEG.git
+pip install git+https://github.com/necla-ml/Diff-JPEG
 ```
 
 All dependencies are listed in [requirements.txt](requirements.txt).

@@ -11,5 +11,5 @@ setup(
     packages=[
         "diff_jpeg",
     ],
-    install_requires=["torch>=1.0.0, opencv-python>=4.7.0.72"],
+    install_requires=["torch>=1.0.0", "opencv-python>=4.7.0.72"],
 )

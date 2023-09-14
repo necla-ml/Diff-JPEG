@@ -1,5 +1,6 @@
 # Differentiable JPEG: The Devil is in the Details
 
+[![arXiv](https://img.shields.io/badge/cs.CV-arXiv%3A2309.06978-B31B1B.svg)](https://arxiv.org/abs/2309.06978)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![Framework](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 
@@ -8,7 +9,7 @@
 , [Deep Patel](https://deepsworld.github.io)
 & [Srimat Chakradhar](https://www.nec-labs.com/research/integrated-systems/people/srimat-t-chakradhar/)**<br/>
 
-## | [Project Page](https://christophreich1996.github.io/differentiable_jpeg/) | [Paper](https://arxiv.org/abs/2308.12116) |
+## | [Project Page](https://christophreich1996.github.io/differentiable_jpeg/) | [Paper](https://arxiv.org/abs/2309.06978) |
 
 <p align="center">
   <img src="github/first_fig.png"  alt="1" width = 791px height = 176px >

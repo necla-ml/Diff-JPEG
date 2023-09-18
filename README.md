@@ -56,7 +56,7 @@ All dependencies are listed in [requirements.txt](requirements.txt).
 
 ## Usage
 
-We offer both a functional and class ([nn.Module](https://pytorch.org/docs/stable/generated/torch.nn.Module.html)))
+We offer both a functional and class ([nn.Module](https://pytorch.org/docs/stable/generated/torch.nn.Module.html))
 implementation of our differentiable JPEG approach. Note beyond the examples provided here we also have
 an [example.py](example.py) file.
 
@@ -77,7 +77,7 @@ jpeg_quality: Tensor = torch.tensor([2.0])
 image_coded: Tensor = diff_jpeg_coding(image_rgb=image, jpeg_quality=jpeg_quality)
 ```
 
-In the following code example, the class ([nn.Module](https://pytorch.org/docs/stable/generated/torch.nn.Module.html)))
+In the following code example, the class ([nn.Module](https://pytorch.org/docs/stable/generated/torch.nn.Module.html))
 implementation is used.
 
 ```python

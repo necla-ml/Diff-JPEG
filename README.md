@@ -33,7 +33,7 @@ reference implementation best, significantly surpassing the recent-best differen
 PSNR) on average. For strong compression rates, we can even improve PSNR by 9.51dB. Strong adversarial attack results
 are yielded by our differentiable JPEG, demonstrating the effective gradient approximation.*
 
-**If you use our dataset or find this research useful in your work, please cite our paper:**
+**If you use our differentiable JPEG or find this research useful in your work, please cite our paper:**
 
 ```bibtex
 @inproceedings{Reich2024,

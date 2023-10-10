@@ -29,8 +29,8 @@ differentiable JPEG approach, overcoming previous limitations. Our approach is d
 the JPEG quality, the quantization tables, and the color conversion parameters. We evaluate the forward and backward
 performance of our differentiable JPEG approach against existing methods. Additionally, extensive ablations are
 performed to evaluate crucial design choices. Our proposed differentiable JPEG resembles the (non-differentiable)
-reference implementation best, significantly surpassing the recent-best differentiable approach by 3.47dB (
-PSNR) on average. For strong compression rates, we can even improve PSNR by 9.51dB. Strong adversarial attack results
+reference implementation best, significantly surpassing the recent-best differentiable approach by 3.47dB (PSNR) 
+on average. For strong compression rates, we can even improve PSNR by 9.51dB. Strong adversarial attack results
 are yielded by our differentiable JPEG, demonstrating the effective gradient approximation.*
 
 **If you use our differentiable JPEG or find this research useful in your work, please cite our paper:**

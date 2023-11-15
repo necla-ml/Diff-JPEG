@@ -53,7 +53,7 @@ class _DifferentiableClippingSTE(Function):
         # Get input tensor
         (input,) = ctx.saved_tensors  # type: Tensor,
         # Make gradient tensor
-        grad: Tensor = torch.where(torch.logical_or(input >= ctx.min, input >= ctx.max), 1.0, ctx.scale) * grad_output
+        grad: Tensor = torch.where(torch.logical_and(input >= ctx.min, input <= ctx.max), 1.0, ctx.scale) * grad_output
         return grad, None, None
 
 

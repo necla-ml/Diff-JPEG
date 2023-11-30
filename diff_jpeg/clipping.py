@@ -81,7 +81,7 @@ def differentiable_clipping(
     output: Tensor = input.clone()
     # Make differentiable soft clipping
     if max is not None:
-        output = torch.where(output > max, max + output * scale, output)
+        output = torch.where(output > max, max + (output - max) * scale, output)
     if min is not None:
-        output = torch.where(output < min, min - output * scale, output)
+        output = torch.where(output < min, min + (output - min) * scale, output)
     return output

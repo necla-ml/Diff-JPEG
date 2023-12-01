@@ -12,7 +12,7 @@ M: Tensor = torch.tensor(
         [0.5, -0.418688, -0.081312],
     ],
     dtype=torch.float,
-).T 
+).T
 
 B = torch.tensor([0, 128, 128], dtype=torch.float)
 

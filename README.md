@@ -9,7 +9,7 @@
 , [Deep Patel](https://deepsworld.github.io)
 & [Srimat Chakradhar](https://www.nec-labs.com/research/integrated-systems/people/srimat-t-chakradhar/)**<br/>
 
-## | [Project Page](https://christophreich1996.github.io/differentiable_jpeg/) | [Paper](https://arxiv.org/abs/2309.06978) |
+## | [Project Page](https://christophreich1996.github.io/differentiable_jpeg/) | [Paper](https://arxiv.org/abs/2309.06978) | [Poster](https://christophreich1996.github.io/pdfs/WACV_Poster.pdf) | [Talk](https://christophreich1996.github.io/images/WACV_Talk_2.mp4) |
 
 <p align="center">
   <img src="github/first_fig.png"  alt="1" width = 791px height = 176px >

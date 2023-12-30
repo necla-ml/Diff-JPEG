@@ -39,7 +39,7 @@ are yielded by our differentiable JPEG, demonstrating the effective gradient app
 @inproceedings{Reich2024,
     author={Reich, Christoph and Debnath, Biplob and Patel, Deep and Chakradhar, Srimat},
     title={{Differentiable JPEG: The Devil is in the Details}},
-    booktitle={{WACV (to appear)}},
+    booktitle={{WACV}},
     year={2024}
 }
 ```
